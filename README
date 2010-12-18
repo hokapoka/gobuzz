@@ -1,0 +1,57 @@
+
+GoBuzz
+======
+
+This is the source code repository for the GoBuzz written 
+in the Go programming language.  i
+
+This repo contains types that can be used with Google Buzz 
+JSON & atom APIs.  
+
+Copyright 2010 The GOAuth Authors. All rights reserved.
+Use of this source code is governed by a BSD-style
+license that can be found in the LICENSE file.
+
+V 0.0.1
+
+Revision History 
+----------------
+
+   == Version 0.0.1 ==
+
+   Initial release, Activity Feed types are functional.
+
+   Additional jtime type that wraps the DateTime format
+   that is contained within the JSON from the buzz API 
+   so that it can be Unmarshalled into a propper type
+   of time.Time.  Without this all the Date / Time 
+   properties have tobe precessed after the fact. 
+
+
+Todo
+----
+
+ - Cleanup jtime type and test Marshalling of Objects to 
+   JSON.
+
+ - Add additional types that are available from Googles
+   Buzz APIs.
+
+
+Contact 
+-------
+
+If you have any issues please feel free to contact : 
+
+    email - hoka@hokapoka.com
+      web - http://go.hokapoka.com
+     buzz - hokapoka.com@gmail.com 
+  twitter - @hokapokadotcom
+   github - github.com/hokapoka/gobuzz
+
+
+============================================================
+
+TODO : add link to example on go.hokapoka.com (once written)
+
+
