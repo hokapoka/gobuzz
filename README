@@ -27,6 +27,14 @@ Revision History
    of time.Time.  Without this all the Date / Time 
    properties have tobe precessed after the fact. 
 
+Example
+-------
+
+	An example of the use of these structs is show in the 
+	GoAuth project. 
+
+	Found here : 
+		https://github.com/hokapoka/goauth/blob/master/example_buzz/example2.go
 
 Todo
 ----
